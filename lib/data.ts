@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import corpcommentImg from "@/public/expense_tracker.png";
+import rmtdevImg from "@/public/exchange_Calci.png";
+import wordanalyticsImg from "@/public/Loan_calci.png";
 
 export const links = [
   {
@@ -47,7 +47,7 @@ export const experiencesData = [
     title: "ServiceNow Consultant",
     location: "Hadron GBS, Pune",
     description:
-      "IT Service Management (ITSM): Implemented ITSM best practices on the ServiceNow platform to enhance incident, problem, change, and request management processes. Service Catalog Development: Designed and implemented service catalogs to streamline service request processes, improving user experience and efficiency. Integration Management: Integrated ServiceNow with third-party applications and systems to ensure seamless data flow and communication.",
+      "IT Service Management (ITSM): Implemented ITSM best practices on the ServiceNow platform to enhance incident, problem, change, and request management processes. Integration Management: Integrated ServiceNow with third-party applications and systems to ensure seamless data flow and communication.",
     icon: React.createElement(CgWorkAlt),
     date: " Nov 2023 - present",
   },
@@ -55,23 +55,23 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Expense Tracker",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Exchange Rate Calculator",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Loan Calculator",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: wordanalyticsImg,
   },
